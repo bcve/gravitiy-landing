@@ -1,0 +1,436 @@
+body
+{
+    margin: 0;
+}
+
+.contenedor
+{
+    width: 1000px;
+    margin: auto;
+}
+.top-bar  
+{
+    background: #071523;
+    color: #c2c4c6;
+}  
+
+.top-bar p
+{
+    margin: 0;
+    padding: 7px 0;
+    font-size: 12px;
+}
+
+.top-bar span
+{
+    text-decoration: underline;
+    text-decoration-color: #036977;
+}
+.portada
+{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height: 650px;
+}
+
+.logo
+{
+    width: 100px;
+    display: inline-block;
+    margin: 31px 0;
+}
+figure
+{
+    margin: 0;
+    display: inline-block;
+}
+
+.menu
+{
+    display: inline-block;
+    float: right;   
+    margin: 12px 0;
+}
+
+.menu ul,li
+{
+    display: inline-block;
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    margin: 0 16px;
+}
+
+.active
+{
+    border-bottom: #00bdcb 3px solid;
+    padding-bottom: 5px;
+}
+
+.interno {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.derecha img
+{
+    width: 350px;
+    margin-top: 41px;
+}
+
+.izquierda h1
+{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.izquierda p
+{
+    color: #c2c6cb;
+    font-size: 20px;
+}
+
+.izquierda input
+{
+    padding: 14px 50px;
+    background: #ffffff12;
+    border: none;
+}
+
+.izquierda button
+{
+    padding: 14px 34px;
+    border-radius: 0px 10px 10px 0px;
+    background: #fb894a;
+    border: 0;
+    color: white;
+}
+
+.izquierda a
+{
+    padding: 14px 34px;
+    border-radius: 0px 10px 10px 0px;
+    background: #fb894a;
+    border: 0;
+    color: white;
+}
+
+.under
+{
+    width: 119px;
+    position: relative;
+    top: 22px;
+    left: -401px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #f7f7f8;
+  font-size: 15px
+}
+
+.feature
+{
+    margin-top: 100px;
+}
+
+.feature img
+{
+    width: 700px;
+    margin: auto;
+    display: block;
+}
+
+.small
+{
+    text-align: center;
+    color: #00bdcb;
+    font-weight: 600;
+}
+
+.big
+{
+    text-align: center;
+    color: #2f4a66;
+    font-size: 28px;
+}
+
+.small-l
+{
+    text-align: left;
+    color: #00bdcb;
+    font-weight: 600;
+}
+
+.big-l
+{
+    text-align: left;
+    color: #2f4a66;
+    font-size: 28px;
+}
+
+.video
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.video img
+{
+    width: 500px;
+}
+
+.video-derecha
+{
+    width: 500px;
+    margin-top: -53px;
+}
+
+.texto
+{
+    color: #8992ac;
+    line-height: 1.4;
+}
+
+.tablai
+{
+    background: #f6f7fb;
+    text-align: left;
+    color: #8e97b6;
+    padding-left: 25px;
+    font-weight: 900;
+    font-size: 18px;
+    width: 184px;
+}
+
+.fa-check:before {
+    content: "\f00c";
+    color: #00bdcb;
+}
+
+.fa-times:before {
+    content: "\f00d";
+    color: #e08c9e;
+}
+
+.tabla
+{
+    width: 100%;
+}
+
+.tabla img
+{
+    width: 120px;
+
+}
+
+td
+{
+    text-align: center;
+    height: 54px;
+    width: 173px;
+}
+
+th
+{
+    color: #566b7f;
+    font-size: 18px;
+}
+
+.comparacion
+{
+    margin-top: 150px;
+}
+
+.cliente
+{
+    display: flex;
+    margin-top: 150px;
+}
+
+.bigger
+{
+    font-size: 21px;
+    text-align: left;
+}
+
+.cliente-derecha
+{
+    background: #f6f7fb;
+    padding: 9px 43px;
+    margin: 0px 15px 0px 34px;
+}
+
+.rectangulo
+{
+    background: #f6f7fb;
+    padding: 8px 12px;
+    width: 300px;
+
+}
+
+.rectangulo:hover
+{
+    background: white;
+    padding: 8px 14px;
+    transform: scale(1.02);
+}
+.rectangulo ol
+{
+    padding-inline-start: 38px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #aeb4ca;
+    font-weight: 600;
+    height: 178px;
+}
+
+.rectangulo button {
+    text-align: center;
+    padding: 7px 32px;
+    background: transparent;
+    border: 3px solid #00bdcb;
+    border-radius: 4px;
+    color: #00bdcb;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.rectangulo button:hover
+{
+    text-align: center;
+    padding: 7px 32px;
+    background: #00bdcb;
+    border: 3px solid #00bdcb;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+}
+.cuadro
+{
+    display: flex;
+}
+
+.cabeza
+{
+    text-align: center;
+}
+
+.xs
+{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.bt
+{
+    text-align: center;
+}
+
+.rectangulo .fa-check:before {
+    content: "\f00c";
+    color: #b4cbea;
+}
+
+.seccion .texto
+{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.man
+{
+    text-align: center;
+}
+.man img 
+{
+    border-radius: 50%;
+    width: 66px;
+    margin-bottom: 25px;
+}
+
+
+.testimonials
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-star:before {
+    content: "\f005";
+    color: #fcaf3b;
+    font-size: 12px;
+    padding: 1.5px;
+}
+
+.fa-plus-circle:before {
+    content: "\f055";
+    color: #00bdcb;
+    font-size: 48px;
+    position: relative;
+    bottom: -59px;
+    right: -106px;
+}
+
+.news
+{
+    display: flex;
+    align-items: center;
+}
+
+.row
+{
+    text-align: center;
+    margin: 10px 39px;
+}
+
+.new
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer-image
+{
+    background-image: url(images/footer.jpg);
+    height: 200px;
+    background-size: cover;
+}
+.footer-image img
+{
+    width: 100%;
+}
+
+.content-footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.content-footer h2
+{
+    display: inline-block;
+    color: white;
+    margin-right: 150px;
+}
+
+.footer-image
+{
+    display: flex;
+    align-items: center;
+}
+
+#izquierda1
+{
+    padding: 15px 100px;
+    background: #ffffff42;
+    border: none;
+}
