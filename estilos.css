@@ -413,7 +413,7 @@ th
 {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 .content-footer h2
 {
@@ -428,9 +428,82 @@ th
     align-items: center;
 }
 
-#izquierda1
-{
-    padding: 15px 100px;
+#izquierda1 {
+    padding: 15px 14px;
     background: #ffffff42;
     border: none;
+    width: 32%;
+    margin-left: 49px;
+}
+
+.izquierda a {
+    padding: 14px 49px;
+    border-radius: 0px 10px 10px 0px;
+    background: #fb894a;
+    border: 0;
+    color: white;
+    width: 6%;
+    text-decoration: none;
+}
+
+.col1
+{
+    width: 258px;
+    display: inline-block;
+    margin-right: 50px;
+    line-height: 1.7;
+}
+.col2
+{
+    width: 200px;
+    display: inline-block;
+    line-height: 1.7;
+    margin: 0 10px;
+}
+.col2 ul
+{
+    padding-inline-start: 1px;
+}
+
+.col3
+{
+    width: 200px;
+    display: inline-block;
+    line-height: 1.7;
+    width: 248px;
+}
+
+.ultimo
+{
+    display: flex;
+    padding: 50px 0;
+}
+.ultimo strong
+{
+    font-size: 18px;
+    color: #5a5d6b;
+}
+
+.ultimo input
+{
+        width: 242px;
+    padding: 7px 0px;
+    border-color: #201e201c;
+}
+
+.derechos
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.pircing
+{
+    margin-top: 100px;
+}
+
+.news h3
+{
+    font-size: 20px;
 }
